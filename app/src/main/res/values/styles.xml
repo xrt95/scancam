@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="camera_activity_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_activity_camera_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_activity_camera_exit</item>
+    </style>
+</resources>

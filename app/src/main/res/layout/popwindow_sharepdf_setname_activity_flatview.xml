@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tranparentDark"-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popwindow_setpdfname_activity_flatview_bg"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHeight_percent="0.2"
+    app:layout_constraintWidth_percent="0.8"
+    app:layout_constraintVertical_bias="0.5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请为新文档命名"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edittext_pdfsetname_popwindow_activity_flatview"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:lines="1"
+        android:inputType="text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_pdfsetname_popwindow_activity_flatview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <TextView
+        android:id="@+id/button_confirm_pdfsetname_popwindow_activity_flatview"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="确定"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/popwindow_setpdfname_ok_button_activity_flatview_bg"
+        app:layout_constraintRight_toLeftOf="@id/guideline_pdfsetname_popwindow_activity_flatview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/cancel_button_pdfsetname_popwindow_activity_flatview"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="暂不命名"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/popwindow_setpdfname_cancel_button_activity_flatview_bg"
+        app:layout_constraintLeft_toRightOf="@id/guideline_pdfsetname_popwindow_activity_flatview"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--/androidx.constraintlayout.widget.ConstraintLayout-->

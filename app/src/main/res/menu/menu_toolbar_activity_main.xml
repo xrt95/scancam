@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_selectall_menu_toolbar_activity_main"
+        android:title="批量操作" />
+    <item
+        android:id="@+id/option_import_pdf_menu_toolbar_activity_main"
+        android:title="导入PDF" />
+
+    <item
+        android:id="@+id/option_import_pic_menu_toolbar_activity_main"
+        android:title="导入图片" />
+
+</menu>

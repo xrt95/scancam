@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_scan_completed_activity_picview"
+        android:title="ScanCompleted"/>
+    <item
+        android:id="@+id/option_reset_activity_picview"
+        android:title="reset"/>
+    <item
+        android:id="@+id/option_scan_step1_activity_picview"
+        android:title="step1"/>
+    <item
+        android:id="@+id/option_scan_step2_activity_picview"
+        android:title="step2"/>
+    <item
+        android:id="@+id/option_scan_step3_activity_picview"
+        android:title="step3"/>
+    <item
+        android:id="@+id/option_scan_step4_activity_picview"
+        android:title="step4"/>
+    <item
+        android:id="@+id/option_pop_window_activity_picview"
+        android:title="pop"/>
+    <item
+        android:id="@+id/option_scan_shift_activity_picview"
+        android:title="shift"/>
+    <item
+        android:id="@+id/option_scan_edge_activity_picview"
+        android:title="edge"/>
+    <item
+        android:id="@+id/option_scan_spec_edge_activity_picview"
+        android:title="specEdge"/>
+    <item
+        android:id="@+id/option_scan_contour_activity_picview"
+        android:title="contour"/>
+
+    <item
+        android:id="@+id/option_scan_spec_contour_activity_picview"
+        android:title="specContour"/>
+    <item
+        android:id="@+id/option_perspective_change_activity_picview"
+        android:title="perspective"/>
+    <item
+        android:id="@+id/option_scan_crop_activity_picview"
+        android:title="crop"/>
+
+
+</menu>

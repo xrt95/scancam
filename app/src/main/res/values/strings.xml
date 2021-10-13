@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">扫描易</string>
+    <string name="no_select_remind">请选择要删除的项目</string>
+    <string name="share_activity_notfound_error">找不到要分享的应用</string>
+    <string name="share_error">文件打开错误或分享的应用异常</string>
+    <string name="multi_pic_select_error">请先选择图片</string>
+    <string name="return_file_uri_error">返回文件uri为空</string>
+    <string name="return_file_col_error">列项不存在</string>
+    <string name="no_originpic_error">原图不存在</string>
+    <string name="pdf_import_error">非pdf文件或文件损坏。若不是上述情况，尝试后台关掉应用并重启</string>
+    <string name="req_authority_main_activity">为了正常使用本应用，需要以下权限：\n\n\t1.相机权限\n\n\t2.读写储存空间权限</string>
+
+</resources>

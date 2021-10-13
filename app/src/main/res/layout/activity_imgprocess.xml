@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootview_activity_imgprocess"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_activity_imgprocess"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_activity_imgprocess_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/darkgrey">
+
+        <Button
+            android:id="@+id/button_back_activity_imgprocess"
+            android:layout_width="@dimen/button_back_activity_imgprocess_width"
+            android:layout_height="@dimen/button_back_activity_imgprocess_height"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/back_button_white"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/textview_title_activity_imgprocess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图像处理"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button_back_activity_imgprocess"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/button_complete_toolbar_activity_imgprocess"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="完成"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_complete_toolbar_activity_imgprocess_bg"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageview_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_activity_imgprocess"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/footbar_crop_activity_imgprocess"
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintDimensionRatio="3:4"/>
+
+    <com.xrt.widget.FreeSelectImageView
+        android:id="@+id/freeselectimageview_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_activity_imgprocess"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/footbar_crop_activity_imgprocess"
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintDimensionRatio="3:4"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_loadingimg_activity_imgprocess"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/footbar_crop_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/footbar_crop_activity_imgprocess_height"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/tranparent">
+
+        <Button
+            android:id="@+id/button_nextstep_activity_imgprocess"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:background="@drawable/button_nextstep_activity_improcess_bg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="10dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button_rotate_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/horizonscrollradiobutton_process_activity_imgprocess"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <com.xrt.widget.HorizonScrollRadioButton
+        android:id="@+id/horizonscrollradiobutton_process_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/horizonscrollradiobutton_process_activity_imgprocess_height"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/footbar_activity_imgprocess"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

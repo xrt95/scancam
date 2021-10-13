@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootview_activity_imgselect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressbar_loadingimg_activity_imgselect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminateTint="@color/primaryBlue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar_activity_imgselect"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/toolbar_activity_imgselect_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/button_quit_toolbar_activity_imgselect"
+            android:layout_width="@dimen/button_quit_toolbar_activity_imgselect_width"
+            android:layout_height="@dimen/button_quit_toolbar_activity_imgselect_height"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/back_button"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/button_complete_toolbar_activity_imgselect"
+            android:layout_width="@dimen/button_complete_toolbar_activity_imgselect_width"
+            android:layout_height="@dimen/button_complete_toolbar_activity_imgselect_height"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="完成"
+            android:textColor="@color/white"
+            android:background="@drawable/button_complete_toolbar_activity_imgselect_bg"
+            android:layout_marginRight="10dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_activity_imgselect"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/footbar_activity_imgselect"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_activity_imgselect"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/footbar_activity_imgselect"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/footbar_activity_imgselect_height"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white">
+
+        <com.xrt.widget.HorizonImageTextButtonGroup
+            android:id="@+id/buttongroup_footbar_activity_imgselect"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.8"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/mask_activity_imgselect"
+        android:visibility="invisible"
+        android:background="@color/tranparentDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

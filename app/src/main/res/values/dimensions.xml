@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="itemview_width_recyclerview_activity_main">90dp</dimen>
+    <dimen name="itemview_height_recyclerview_activity_main">68dp</dimen>
+    <dimen name="toolbar_height_activity_main">70dp</dimen>
+    <dimen name="footbar_height_activity_main">60dp</dimen>
+    <dimen name="button_menu_toolbar_activity_main_width">48dp</dimen>
+    <dimen name="button_menu_toolbar_activity_main_height">48dp</dimen>
+    <dimen name="textview_toolbar_width_activity_main">100dp</dimen>
+    <dimen name="textview_toolbar_height_activity_main">40dp</dimen>
+    <dimen name="textview_selectbar_width_activity_main">100dp</dimen>
+    <dimen name="textview_selectbar_height_activity_main">40dp</dimen>
+    <dimen name="toolbar_height_activity_picview">60dp</dimen>
+    <dimen name="footbar_height_activity_picview">70dp</dimen>
+    <dimen name="switchbuttongroup_width_activity_picview">130dp</dimen>
+    <dimen name="switchbuttongroup_height_activity_picview">30dp</dimen>
+    <dimen name="backbutton_toolbar_width_activity_picview">30dp</dimen>
+    <dimen name="backbutton_toolbar_height_activity_picview">30dp</dimen>
+    <dimen name="sharebutton_toolbar_width_activity_picview">30dp</dimen>
+    <dimen name="sharebutton_toolbar_height_activity_picview">30dp</dimen>
+    <dimen name="title_toolbar_height_activity_picview">40dp</dimen>
+    <dimen name="toolbar_activity_flatview_height">60dp</dimen>
+    <dimen name="button_back_toolbar_activity_flatview_width">30dp</dimen>
+    <dimen name="button_back_toolbar_activity_flatview_height">30dp</dimen>
+    <dimen name="title_toolbar_activity_flatview_height">40dp</dimen>
+    <dimen name="button_menu_toolbar_activity_flatview_width">30dp</dimen>
+    <dimen name="button_menu_toolbar_activity_flatview_height">30dp</dimen>
+    <dimen name="selectbar_activity_flatview_height">60dp</dimen>
+    <dimen name="footbar_activity_flatview_height">60dp</dimen>
+    <dimen name="textview_item_check_activity_flatview_width">20dp</dimen>
+    <dimen name="textview_item_check_activity_flatview_height">20dp</dimen>
+    <dimen name="textview_selectbar_activity_flatview_width">100dp</dimen>
+    <dimen name="textview_selectbar_activity_flatview_height">30dp</dimen>
+    <dimen name="button_quit_selectbar_activity_flatview_width">25dp</dimen>
+    <dimen name="button_quit_selectbar_activity_flatview_height">25dp</dimen>
+    <dimen name="button_selectall_activity_flatview_width">30dp</dimen>
+    <dimen name="button_selectall_activity_flatview_height">30dp</dimen>
+    <dimen name="textview_item_count_activity_flatview_width">25dp</dimen>
+    <dimen name="textview_item_count_activity_flatview_height">25dp</dimen>
+    <dimen name="button_quit_movebar_activity_flatview_width">25dp</dimen>
+    <dimen name="button_quit_movebar_activity_flatview_height">25dp</dimen>
+    <dimen name="textview_movebar_activity_flatview_width">300dp</dimen>
+    <dimen name="textview_movebar_activity_flatview_height">30dp</dimen>
+    <dimen name="toolbar_activity_imgselect_height">60dp</dimen>
+    <dimen name="footbar_activity_imgselect_height">60dp</dimen>
+    <dimen name="button_quit_toolbar_activity_imgselect_width">30dp</dimen>
+    <dimen name="button_quit_toolbar_activity_imgselect_height">30dp</dimen>
+    <dimen name="button_complete_toolbar_activity_imgselect_width">60dp</dimen>
+    <dimen name="button_complete_toolbar_activity_imgselect_height">35dp</dimen>
+    <dimen name="button_item_check_activity_imgselect_width">25dp</dimen>
+    <dimen name="button_item_check_activity_imgselect_height">25dp</dimen>
+    <dimen name="popwindow_delete_hint_height">200dp</dimen>
+    <dimen name="hintpoint_pointdownhintview_width">30dp</dimen>
+    <dimen name="toolbar_activity_imgprocess_height">60dp</dimen>
+    <dimen name="button_back_activity_imgprocess_width">30dp</dimen>
+    <dimen name="button_back_activity_imgprocess_height">30dp</dimen>
+    <dimen name="horizonscrollradiobutton_process_activity_imgprocess_height">100dp</dimen>
+    <dimen name="button_rotate_activity_imgprocess_width">35dp</dimen>
+    <dimen name="button_rotate_activity_imgprocess_height">35dp</dimen>
+    <dimen name="footbar_crop_activity_imgprocess_height">60dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

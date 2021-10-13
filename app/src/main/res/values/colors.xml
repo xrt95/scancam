@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryVariant">#DDDDDD</color>
+    <color name="colorSecondary">#AAFFEE</color>
+    <color name="colorSecondaryVariant">#AAFFEE</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greyWhite">#EEEEEE</color>
+    <color name="tranGrey">#FEEEEEEE</color>
+    <color name="tranDarkGrey">#FF666666</color>
+    <color name="red">#FFFF0000</color>
+    <color name="lightClickColor">#FFEEEEEE</color>
+    <color name="recyclerview_item_bg_color">#44DDDDDD</color>
+    <color name="tranparent">#00000000</color>
+    <color name="primaryBlue">#FF22a5c3</color>
+    <color name="lightBlue">#3322a5c3</color>
+    <color name="darkBlue">#FF0066FF</color>
+    <color name="tranparentDark">#77000000</color>
+    <color name="tranparentDarkBB">#BB000000</color>
+    <color name="darkgrey">#FF222222</color>
+    <color name="darkWhite">#FFEFEFEF</color>
+
+
+</resources>

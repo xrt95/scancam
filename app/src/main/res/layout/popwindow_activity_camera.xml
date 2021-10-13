@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:self="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootview_popwindow_activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tranGrey">
+
+    <com.xrt.widget.FreeSelectImageView
+        android:id="@+id/freeselectimageview_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintVertical_bias="0.1"/>
+
+    <com.xrt.widget.RadioButtonGroup
+        android:id="@+id/radiobuttongroup_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/freeselectimageview_popwindow_activity_camera"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        self:cols="2"
+        self:textSize="13"
+        self:clickBgColor="@color/lightBlue"/>
+
+    <Button
+        android:id="@+id/button_cancel_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/cancel_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiobuttongroup_popwindow_activity_camera"
+        app:layout_constraintWidth_percent="0.13"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_redo_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:background="@drawable/redo_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiobuttongroup_popwindow_activity_camera"
+        app:layout_constraintWidth_percent="0.13"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.3"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_select_ok_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ok_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiobuttongroup_popwindow_activity_camera"
+        app:layout_constraintWidth_percent="0.13"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.7"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button_final_ok_popwindow_activity_camera"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ok_button"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radiobuttongroup_popwindow_activity_camera"
+        app:layout_constraintWidth_percent="0.13"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_bias="0.7"
+        android:layout_marginTop="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_waiting_process_activity_camera"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="@id/freeselectimageview_popwindow_activity_camera"
+        app:layout_constraintBottom_toBottomOf="@id/freeselectimageview_popwindow_activity_camera"
+        app:layout_constraintLeft_toLeftOf="@id/freeselectimageview_popwindow_activity_camera"
+        app:layout_constraintRight_toRightOf="@id/freeselectimageview_popwindow_activity_camera"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
