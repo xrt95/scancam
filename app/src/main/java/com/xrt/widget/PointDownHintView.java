@@ -28,6 +28,7 @@ public class PointDownHintView extends View implements View.OnTouchListener{
     }
     private void init(Context context){
         setOnTouchListener(this);
+        //这里和R类耦合了。R类是和项目耦合的。
         mRadius = context.getResources().getDimensionPixelSize(R.dimen.hintpoint_pointdownhintview_width);
         mCenterX = -mRadius;
         mCentetY = -mRadius;
